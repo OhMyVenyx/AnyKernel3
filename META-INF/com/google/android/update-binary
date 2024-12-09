@@ -582,5 +582,7 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print " " "Done!";
+ui_print " " "Enjoy the kernel!! ";
+
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
